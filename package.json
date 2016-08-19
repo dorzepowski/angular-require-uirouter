@@ -9,6 +9,9 @@
   "author": "Damian Orzepowski",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "babel-preset-es2015": "6.13.2",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "3.1.1",
+    "gulp-babel": "6.1.2"
   }
 }
