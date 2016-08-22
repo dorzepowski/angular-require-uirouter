@@ -1,5 +1,8 @@
 (function () {
-    define(['jquery'],function ($) {
-     $('body').append("<h1>VIEW 1</h1>")
+    define(['jquery','_'],function ($,_) {
+        var rand = _.random();
+        $('body').append("<h1>VIEW "+rand+"</h1>");
+
+
     })
 })();
