@@ -22,7 +22,7 @@
     });
 
 
-    define(["require","angular","main/app"],function(require, angular){
+    define(["require","angular","main/index"],function(require, angular){
 
         require(['domReady!'], function (document) {
             angular.bootstrap(document, ['mainApp']);

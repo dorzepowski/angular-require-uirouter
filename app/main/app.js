@@ -1,6 +1,6 @@
 (function () {
-    define(["angular","nav/index"], function(angular){
-        return angular.module("mainApp",[]);
+    define(["angular", 'angular-ui-router'], function(angular){
+        return angular.module("mainApp",['ui.router','nav']);
     });
 
 })();
