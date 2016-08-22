@@ -2,7 +2,7 @@
     define(["./app"],function (app) {
         var mainState = {
             name : "main",
-            url: "/",
+            url: "^",
             //abstract: true,
             views : {
                 'nav' : {
