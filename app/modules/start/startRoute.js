@@ -6,16 +6,16 @@ define(["require", "./startApp"], function (require, app) {
             views: {
                 'content@': {
                     templateUrl: "modules/start/start.html",
-                    // controller: "StartController",
-                    // resolve: {
-                    //     depsLoaded: function ($q) {
-                    //         var d = $q.defer();
-                    //         require(["./TimeService","./StartController"], function () {
-                    //             d.resolve(true);
-                    //         });
-                    //         return d.promise();
-                    //     }
-                    // }
+                    controller: "StartController",
+                    resolve: {
+                        depsLoaded: function ($q) {
+                            var d = $q.defer();
+                            require(["./TimeService","./StartController"], function () {
+                                d.resolve(true);
+                            });
+                            return d.promise;
+                        }
+                    }
                 }
             }
         });

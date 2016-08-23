@@ -1,5 +1,5 @@
 (function () {
-    define(["require","./startApp","./startRoute"],function (require) {
+    define(["require","./startApp","./providers","./startRoute"],function (require) {
 
             console.log("Start Module Route loaded");
 
