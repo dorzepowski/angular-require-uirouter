@@ -7,12 +7,12 @@
             //abstract: true,
             views : {
                 'nav' : {
-                    templateUrl: "main/navbar.html",
+                    templateUrl: "main/nav/navbar.html",
                     controller: "NavController",
                     controllerAs: "nav"
                 },
                 'content' : {
-                    templateUrl: "main/dummy-content.html"
+                    templateUrl: "main/default-content.html"
                 }
             }
         };
