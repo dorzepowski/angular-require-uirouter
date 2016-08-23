@@ -1,5 +1,5 @@
 <ul>
   <li ng-repeat="item in nav.menu">
-      {{item.title}}
+      <a ui-sref="{{item.ref}}">{{item.title}}</a>
   </li>
 </ul>

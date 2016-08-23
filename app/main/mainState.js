@@ -3,6 +3,7 @@
         var mainState = {
             name : "main",
             url: "^",
+            parent: "",
             //abstract: true,
             views : {
                 'nav' : {

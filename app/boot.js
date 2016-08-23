@@ -22,9 +22,10 @@
     });
 
 
-    define(["require","angular","main/index"],function(require, angular){
+    define(["require","angular","main/index","modules/start/index", "modules/stop/index"],function(require, angular){
 
-        require(['domReady!'], function (document) {
+        require(['domReady!', 'main/app'], function (document) {
+            console.log("Starting bootstraping");
             angular.bootstrap(document, ['mainApp']);
         });
     });
