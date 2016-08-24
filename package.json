@@ -1,0 +1,13 @@
+{
+  "name": "angular-require-uiRouter",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Damian Orzepowski",
+  "devDependencies": {
+    "babel-preset-es2015": "6.13.2",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "3.1.1",
+    "gulp-babel": "6.1.2",
+    "gulp-webserver": "0.9.1"
+  }
+}
