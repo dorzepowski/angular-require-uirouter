@@ -22,7 +22,7 @@
     });
 
 
-    define(["require","angular","main/index","modules/start/index", "modules/other/index"],function(require, angular){
+    define(["require","angular","main/index","modules/timer/index", "modules/other/index"],function(require, angular){
 
         require(['domReady!', 'main/app'], function (document) {
             console.log("Starting bootstraping");

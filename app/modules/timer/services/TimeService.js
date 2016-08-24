@@ -1,8 +1,10 @@
 (function () {
 
-    define(["require","angular", "./providers", "_"], function (require,angular, providers, _) {
+    define(["require", "../providers", "_"], function (require, providers, _) {
 
-        providers.service("TimeService", function ($interval) {
+        providers.service("TimeService", TimeService);
+
+        function TimeService($interval) {
             var serv = this;
 
             serv.start = start;
@@ -32,7 +34,7 @@
                 return t;
             }
 
-        });
+        }
     });
 
 })();

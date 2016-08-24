@@ -1,4 +1,4 @@
-define(["./startApp"],function (app) {
+define(["./module"],function (app) {
     var providersCache = {};
     app.config(function($controllerProvider, $compileProvider, $filterProvider, $provide){
             providersCache.controller=  $controllerProvider.register;
