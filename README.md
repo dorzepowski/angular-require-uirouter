@@ -1,0 +1,1 @@
+Template project to use RequireJS and Angular ui router
