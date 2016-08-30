@@ -1,5 +1,5 @@
 (function () {
-    define(["require","./module","./route"],function (require) {
-            console.log("Stop Module Route loaded");
+    define(["require","./module","./route"],function () {
+            console.log("Other Module Route loaded");
     })
 })();

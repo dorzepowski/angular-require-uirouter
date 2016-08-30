@@ -4,7 +4,7 @@ var webserver = require('gulp-webserver');
 gulp.task('serve', function() {
     gulp.src('app')
         .pipe(webserver({
-            host: '192.168.1.114',
+            host: '0.0.0.0',
             port:'8000',
             livereload: true
         })).pipe(webserver({

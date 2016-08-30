@@ -1,7 +1,7 @@
 (function () {
-    define(["require","./module","./providers","./route"],function (require) {
+    define(["require","./module","./providers","./route"],function () {
 
-            console.log("Start Module Route loaded");
+            console.log("Timer Module Route loaded");
 
     })
 })();

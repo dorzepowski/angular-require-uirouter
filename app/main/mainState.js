@@ -18,7 +18,7 @@
         };
 
 
-        app.config(['$stateProvider',function ($stateProvider) {
+        app.config(['$stateProvider', '$urlRouterProvider',function ($stateProvider) {
             $stateProvider.state(mainState);
         }]);
 

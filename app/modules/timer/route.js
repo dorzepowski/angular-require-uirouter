@@ -1,8 +1,9 @@
 define(["require", "./module"], function (require, app) {
 
     app.config(['$stateProvider', function ($stateProvider) {
+        //noinspection JSUnusedGlobalSymbols
         $stateProvider.state("main.timer", {
-            url: "timer/",
+            url: "/timer/",
             abstract: true,
             resolve: {
                 timerDeps: function ($q) {

@@ -9,7 +9,7 @@
             "_":"libs/lodash/dist/lodash.min",
             'angular': 'libs/angular/angular.min',
             'angular-ui': 'libs/angular-ui/build/angular-ui.min',
-            'angular-ui-router': 'libs/angular-ui-router/release/angular-ui-router.min'
+            'angular-ui-router': 'libs/angular-ui-router/release/angular-ui-router'
         },
         shim: {
             'angular': {
