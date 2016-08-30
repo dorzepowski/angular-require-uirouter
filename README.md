@@ -1,4 +1,4 @@
-Template project to use RequireJS and Angular ui router
+# Template project to use RequireJS and Angular ui router
 
 TODO:
 
