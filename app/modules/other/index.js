@@ -1,5 +1,5 @@
 (function () {
-    define(["require","./module","./route"],function () {
+    define(["require","./module","./providers","./route"],function () {
             console.log("Other Module Route loaded");
     })
 })();

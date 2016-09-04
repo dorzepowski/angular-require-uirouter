@@ -18,8 +18,9 @@
         };
 
 
-        app.config(['$stateProvider', '$urlRouterProvider',function ($stateProvider) {
+        app.config(['$stateProvider', '$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
             $stateProvider.state(mainState);
+            $urlRouterProvider.otherwise("/")
         }]);
 
         return mainState;
