@@ -4,9 +4,11 @@
     require.config({
         basePath: "/",
         paths:{
+            "app": "main/app",
             'domReady': 'libs/domReady/domReady',
             "jquery":"libs/jquery/dist/jquery.min",
             "_":"libs/lodash/dist/lodash.min",
+            "q": "libs/q/q",
             'angular': 'libs/angular/angular.min',
             'angular-ui': 'libs/angular-ui/build/angular-ui.min',
             'angular-ui-router': 'libs/angular-ui-router/release/angular-ui-router'
