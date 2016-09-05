@@ -7,6 +7,7 @@
                     ui.menu = [];
                     ui.menu.push({title:"Timer",ref:"main.timer.start"});
                     ui.menu.push({title:"Other",ref:"main.oth"});
+                    ui.menu.push({title: "Module1", ref: "main.mod1"});
                     //ui.st = $state;
                 });
             })

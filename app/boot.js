@@ -4,7 +4,6 @@
     require.config({
         basePath: "/",
         paths:{
-            "app": "main/app",
             'domReady': 'libs/domReady/domReady',
             "jquery":"libs/jquery/dist/jquery.min",
             "_":"libs/lodash/dist/lodash.min",
@@ -24,7 +23,7 @@
     });
 
 
-    define(["require","angular","main/index","modules/timer/index", "modules/other/index"],function(require, angular){
+    define(["require", "angular", "main/index", "modules/timer/index", "modules/other/index", "modules/module1/index"], function (require, angular) {
 
         require(['domReady!', 'main/app'], function (document) {
             console.log("Starting bootstraping");
