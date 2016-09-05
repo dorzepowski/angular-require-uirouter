@@ -1,4 +1,4 @@
-define(["angular", "q", "app"], function (angular, Q, app) {
+define(["angular", "q", "main/app"], function (angular, Q, app) {
 
     return new ModuleFactory();
 
@@ -37,7 +37,7 @@ define(["angular", "q", "app"], function (angular, Q, app) {
         }
 
 
-        function validate(name) {
+        function validate() {
             if (name == null) {
                 throw "Module name cannot be null";
             }

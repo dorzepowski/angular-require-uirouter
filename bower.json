@@ -20,6 +20,6 @@
     "domReady": "requirejs-domready#^2.0.1",
     "angular-ui": "^0.4.0",
     "angular-ui-router": "0.3.1",
-    "q": "^2.0.2"
+    "q": "1.0.1"
   }
 }
